@@ -1,0 +1,44 @@
+.js-poke-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     list-style: none;
+     /* background-color: rgb(209, 216, 209); */
+}
+
+li{
+     width: 250px;
+     height: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 15px;
+     color: black;
+     box-shadow: 0px 0px 10px grey;
+     border-top-left-radius: 60px;
+     border-bottom-right-radius: 60px;
+     /* background-color: green; */
+     
+
+     h3{
+          font-size: 18px;
+          /* color: white; */
+          font-family: cursive;
+     }
+     span{
+          /* color: white; */
+          font-family: cursive;
+     }
+
+     img{
+          width: 100px;
+     }
+}
+li:hover{
+     background-color: grey;
+     cursor: pointer;
+     color: orange;
+     transition: all .5s linear;
+     transform: scale(1.1);
+}
